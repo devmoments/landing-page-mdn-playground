@@ -1,0 +1,258 @@
+.container {
+  /* background: #cfc8c8fc; */
+  max-width: 100%;
+  margin: auto;
+  padding: 0 0.5rem;
+}
+
+.page-header {
+  background-color: #2d68ee;
+  background-image: linear-gradient(60deg, #1259fe, #003098);
+  padding: 20px 0;
+}
+
+.page-header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2.2;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.page-header__nav i {
+  font-size: 11px;
+}
+
+.header__nav-btn:hover {
+  background: rgba(255, 255, 255, 0.507);
+}
+
+.hero-section {
+  background-color: #306ffd;
+  background-image: linear-gradient(60deg, #306efe, #003ab7);
+  color: #fff;
+  padding: 4rem 0 8rem;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content img {
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.hero-content__title {
+  font-family: "Antonio", Open Sans, Helvetica Neue, Helvetica, Arial,
+    "sans-serif";
+  font-size: 2.249rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.hero-content__sub-title {
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, "sans-serif";
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.hero-content__btn {
+  padding: 30px 0 0;
+}
+
+.btn {
+  color: #306ffd;
+  background: #fff;
+  border: 0px solid #fff;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 700;
+  padding: 16px 18px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.hero__svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin-bottom: -1px;
+}
+
+/********** play section **********/
+.play-section {
+  /* background: lightcoral; */
+  padding: 64px 0;
+}
+
+.play-columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-play__img {
+  padding-bottom: 20px;
+}
+
+.play-col__title {
+  font-family: "Antonio", Open Sans, Helvetica Neue, Helvetica, Arial,
+    "sans-serif";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: 0 0 15px;
+}
+
+.play-col__sub-title {
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, "sans-serif";
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  padding: 0 0 20px;
+}
+
+.play-content__btn {
+  padding: 20px 0 60px;
+}
+
+.play-btn {
+  background: #fff;
+  border: 2px solid #306ffd;
+  border-radius: 50px;
+  color: #306ffd;
+  display: inline;
+  font-weight: 700;
+  padding: 12px 22px;
+  text-align: center;
+}
+
+.play-btn i {
+  font-weight: 200;
+}
+
+.play-btn:hover {
+  background: #306efd61;
+}
+
+/********** blue section **********/
+.blue-section {
+  background-color: #0727a9;
+  background-image: linear-gradient(90deg, #0727a9, #0772ac);
+  padding: 64px 0;
+}
+
+.blue-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-content__logo {
+  margin-bottom: 2rem;
+}
+
+.blue-content__text {
+  color: #fff;
+  line-height: 4rem;
+  font-family: Antonio, Open Sans, Helvetica Neue, Helvetica, Arial,
+    "sans-serif";
+  font-size: 2.36859rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+/********** footer section **********/
+.footer-section {
+  background: hsl(0, 0%, 0%);
+  color: #fff;
+  padding: 64px;
+}
+
+.footer-section__top-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-footer-col h3 {
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+}
+
+.links p {
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+
+.links a {
+  color: #fff;
+}
+
+.h-line {
+  height: 1px;
+  background-color: #3e3e3e;
+  margin: 15px 0;
+}
+
+.footer-section__bottom-footer .links {
+  font-size: 12px;
+  display: flex;
+}
+
+.links a {
+  margin-right: 20px;
+}
+
+/*********** MQ **********/
+@media screen and (min-width: 48.875em) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 59.375em) {
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .play-columns {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .container .footer-section__top-footer {
+    flex-direction: row;
+    flex-basis: 33.33%;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
