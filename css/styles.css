@@ -169,6 +169,7 @@
 
 .blue-content__logo {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .blue-content__text {
@@ -248,11 +249,21 @@
     gap: 40px;
   }
 
+  /* .blue-content {
+    flex-direction: row;
+  } */
+
   .container .footer-section__top-footer {
     flex-direction: row;
     flex-basis: 33.33%;
-    width: 100%;
     justify-content: space-between;
-    text-align: left;
+  }
+
+  .top-footer-col {
+    width: 100%;
+  }
+
+  .top-footer-col h3 {
+    margin-top: 0;
   }
 }
