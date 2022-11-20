@@ -70,6 +70,7 @@
 
 .hero-content__btn {
   padding: 30px 0 0;
+  flex: 1;
 }
 
 .btn {
@@ -162,12 +163,13 @@
 
 .blue-content {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 
 .blue-content__logo {
+  flex: 2;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -175,6 +177,8 @@
 .blue-content__text {
   color: #fff;
   line-height: 4rem;
+  flex: 5;
+  margin-right: 20px;
   font-family: Antonio, Open Sans, Helvetica Neue, Helvetica, Arial,
     "sans-serif";
   font-size: 2.36859rem;
@@ -249,9 +253,22 @@
     gap: 40px;
   }
 
-  /* .blue-content {
+  .blue-content {
     flex-direction: row;
-  } */
+  }
+
+  .blue-content__logo {
+    flex: 2;
+  }
+
+  .blue-content__text {
+    flex: 5;
+    margin-right: 20px;
+  }
+
+  .hero-content__btn {
+    flex: 1;
+  }
 
   .container .footer-section__top-footer {
     flex-direction: row;
